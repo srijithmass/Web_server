@@ -31,6 +31,11 @@ content = """
 <body>
 <h1>Welcome</h1>
 </body>
+body {
+      background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+      color: #fff;
+      font-family: "Euclid Circular B Medium", Poppins;
+    }
 </html>
 """
 class myhandler(BaseHTTPRequestHandler):
